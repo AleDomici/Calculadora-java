@@ -12,6 +12,16 @@ public class Main {
             System.out.print("Digite o segundo número: ");
             double numero2 = entrada.nextDouble();
 
+            // Pede ao usuário para escolher uma operação
+            System.out.println("Escolha a operação:");
+            System.out.println("1 - Soma");
+            System.out.println("2 - Subtração");
+            System.out.println("3 - Multiplicação");
+            System.out.println("4 - Divisão");
+            int operacao = entrada.nextInt();
+
+            // Variável para armazenar o resultado da operação
+            double resultado = 0;
         }
     }
 }
